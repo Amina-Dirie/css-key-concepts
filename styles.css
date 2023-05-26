@@ -2,6 +2,12 @@ body{
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 .main-header{
     width: 100%;
     height: 90px;
@@ -95,5 +101,24 @@ nav li a{
     background-color: purple;
     
 }
+
+/* header end */
+
+#update-section{
+    border: solid purple 2px;
+    margin: 8px 30px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#update-section p{
+    font-family: "Poppins", sans-serif;
+}
+#update-section h3{
+    font-size: 23px;
+  
+}
+
 
 
