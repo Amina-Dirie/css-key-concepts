@@ -1,3 +1,99 @@
-/* Your CSS styles here! */
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    width: 100%;
+    height: 90px;
+    background-color: #662483;  
+
+}
+
+.main-header header img{
+    width: 90px;
+}
+nav{
+    position: absolute;
+    left: 55%;
+    top: 2px;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav li{
+    
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.menu-item :hover{
+    color: black;
+}
+
+.sub-header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    
+}
+.title{
+ padding-left: 10px;
+}
+.title a{
+  
+    text-decoration: none;
+}
+.title-name{
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.title-number{
+    
+    font-size: 20px;
+    color: rgb(58, 26, 58);
+}
+.phone-icon{
+    width: 25px;
+    position: absolute;
+    left: 270px;
+   
+}
+
+.searching{
+    padding-right: 15px;
+}
+
+.btn-search{
+    font-size: 15px;
+    padding: 7px ;
+    border: solid purple 1px ;
+    border-radius: 4px;
+    color: purple;
+}
+.searching input{
+    padding: 7px 2px;
+    width: 250px;
+
+}
+
+ .btn-search:hover{
+    color: white;
+    background-color: purple;
+    
+}
 
 
