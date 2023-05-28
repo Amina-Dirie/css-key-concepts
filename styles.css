@@ -125,34 +125,30 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 5% 0px;
-
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url("./surgery.png");
+    font-family:"Poppins", sans-serif;
+    background-size: cover;
+    color: white;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
-#img-section{
-    padding-left: 20px;
-
-}
-#video-section{
-    padding-right: 20px;
-}
-#img-section div{
-    border: solid rgba(128, 0, 128, 0.205) 1px;
+#welcome-section p{
+    background-color: antiquewhite;
+    color: black;
+    padding: 15px 10px ;
+    padding-bottom: 65px;
     border-radius: 10px;
-    padding: 5px;
-    font-family: "Poppins", sans-serif; 
+    font-size: 19px;
 
 }
 
 
-#welcome-section section img{
-    width: 640px;
-    height: 300px;
-
-}
 
 #welcome-section section video{
-    width: 640px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+    
 
 }
 /* welcome section End */
