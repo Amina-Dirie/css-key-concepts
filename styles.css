@@ -117,8 +117,103 @@ nav li a{
 }
 #update-section h3{
     font-size: 23px;
-  
 }
+
+/* update section end */
+
+#welcome-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0px;
+
+}
+
+#img-section{
+    padding-left: 20px;
+
+}
+#video-section{
+    padding-right: 20px;
+}
+#img-section div{
+    border: solid rgba(128, 0, 128, 0.205) 1px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Poppins", sans-serif; 
+
+}
+
+
+#welcome-section section img{
+    width: 640px;
+    height: 300px;
+
+}
+
+#welcome-section section video{
+    width: 640px;
+    height: 300px;
+
+}
+/* welcome section End */
+
+#form-section{
+    padding: 15px 20px ;
+    background-color:  #672483e3;
+    padding-bottom: 35px;
+}
+
+#form-section h2{
+    text-align: center;
+    color: white;
+    font-family:"Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+#form-content{
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px ;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    font-family:"Poppins", sans-serif;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.fullName{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 100%;
+    height: 30px;
+}
+.form-group textarea{
+    width: 100%;  
+}
+fieldset{
+    background-color: rgba(240, 236, 236, 0.678);
+}
+.btn-save{
+    font-size: 15px;
+    margin:15px;
+    padding: 11px 35px ;
+    border-radius: 4px;
+    background-color:  #662483;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* end of form */
 
 
 
